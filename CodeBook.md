@@ -22,6 +22,11 @@ respectively.
 
 1. Loading of original data sets into the environment and creation of the variables: 
 
+    'xTrain' and 'xTest': training and testing data frames, respectively.
+    'yTrain' and 'yTest': activity numerical labels for the training and testing data sets, respectively.
+    'subjectTrain' and 'subjectTest': subjects who performed the activities, codified by numerical values, for the training
+    and testing data sets, respectively.
+
 1. Combination of train and test data frames: using 'rbind' the   
 
 2. Change of variable names and activity labels.
