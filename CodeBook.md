@@ -20,7 +20,7 @@ respectively.
 
 'run_analysis.R' performs the following operations to the original data sets:
 
-1. Loading of original data sets into the environment and creation of the variables: 
+1. Loading of original data sets into the environment and creation of the data frames: 
 
     'xTrain' and 'xTest': training and testing data frames, respectively.
     
@@ -33,7 +33,7 @@ respectively.
     
     'activityLabels': data frame connecting activity numerical lables to activity names. 
 
-2. Combination of train and test data frames, using 'rbind', and creation of the variables:
+2. Combination of train and test data frames, using 'rbind', and creation of the data frames:
 
     'xAll': training and testing data frames combined.
     
@@ -43,7 +43,11 @@ respectively.
 
 3. Change of variable names and activity labels.
 
-4. Selection of variables containing mean and standard deviation, using 'grep'.
+4. Selection of variables containing mean and standard deviation, using 'grep', and creation of:
+
+    'mean_std': vector containing the indices of the features with mean and standard deviation.
+    
+    'xAllMeanStd': subset of variables from 'xAll' that contain only mean and standard deviation of measures.
 
 5. Combination of all the processed data into one single data frame named 'Final', using 'cbind'.
 
