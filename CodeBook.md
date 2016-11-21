@@ -23,16 +23,28 @@ respectively.
 1. Loading of original data sets into the environment and creation of the variables: 
 
     'xTrain' and 'xTest': training and testing data frames, respectively.
+    
     'yTrain' and 'yTest': activity numerical labels for the training and testing data sets, respectively.
-    'subjectTrain' and 'subjectTest': subjects who performed the activities, codified by numerical values, for the training
+    
+    'subjectTrain' and 'subjectTest': subjects who performed the activities -represented by numerical values- for the training
     and testing data sets, respectively.
+    
+    'features': all the features corresponding to the data frames 'xTrain' and 'xTest'.
+    
+    'activityLabels': data frame connecting activity numerical lables to activity names. 
 
-1. Combination of train and test data frames: using 'rbind' the   
+2. Combination of train and test data frames using 'rbind' and creation of the variables:
 
-2. Change of variable names and activity labels.
+    'xAll': training and testing data frames combined.
+    
+    'yAll': activity numerical labels for the training and testing data sets combined.
+    
+    'subjectAll': subjects who performed the activities for the training and testing data sets combined.
 
-3. Selection of variables containing mean and standard deviation.
+3. Change of variable names and activity labels.
 
-4. Combination of all the processed data into one single data frame.
+4. Selection of variables containing mean and standard deviation, using 'grep'.
 
-5. Creation of a tidy dataset named "final.txt".
+5. Combination of all the processed data into one single data frame named 'Final' using 'cbind'.
+
+6. Creation of a tidy dataset named "final.txt" using 'write.table'.
