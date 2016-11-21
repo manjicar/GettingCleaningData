@@ -11,15 +11,17 @@ Those original data sets consist of train, test, activity and features text file
 
 'run_analysis.R' contains the code that performs the following operations on the original datasets (All original files must be in the same folder as the script for the code to run properly):
 
-1. Combination of train and test data frames. 
+1. Loading into the environment.
 
-2. Change of variable names and activity labels.
+2. Combination of train and test data frames. 
 
-3. Selection of variables containing mean and standard deviation.
+3. Change of variable names and activity labels.
 
-4. Combination of all the processed data into one single data frame.
+4. Selection of variables containing mean and standard deviation.
 
-5. Creation of a tidy dataset named "final.txt".
+5. Combination of all the processed data into one single data frame.
+
+6. Creation of a tidy dataset named "final.txt".
 
 'CodeBook.md' describes the variables and the transformations performed on the original data.
 
