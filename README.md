@@ -9,7 +9,7 @@ Those original data sets consist of train, test, activity and features text file
 
 ## Files in this repository
 
-'run_analysis.R' contains the code that performs the following operations on the original datasets (All original files must be in the same folder as the script for the code to run properly):
+'run_analysis.R' contains the code that performs the following operations on the original datasets (all original files must be in the same folder as the script for the code to run properly):
 
 1. Loading into the environment.
 
