@@ -33,7 +33,7 @@ respectively.
     
     'activityLabels': data frame connecting activity numerical lables to activity names. 
 
-2. Combination of train and test data frames using 'rbind' and creation of the variables:
+2. Combination of train and test data frames, using 'rbind', and creation of the variables:
 
     'xAll': training and testing data frames combined.
     
@@ -45,6 +45,6 @@ respectively.
 
 4. Selection of variables containing mean and standard deviation, using 'grep'.
 
-5. Combination of all the processed data into one single data frame named 'Final' using 'cbind'.
+5. Combination of all the processed data into one single data frame named 'Final', using 'cbind'.
 
-6. Creation of a tidy dataset named "final.txt" using 'write.table'.
+6. Creation of a tidy dataset named "final.txt", using 'write.table'.
